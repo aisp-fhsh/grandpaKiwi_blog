@@ -12,6 +12,19 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
+        nav: [
+      { text: 'Home', link: '/' },
+      {
+        text: 'Articles',
+        items: [
+          { text: 'My First Article', link: '/read/my_first_md' },  // 👈 加這一行
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      }
+    ],
+
+
     sidebar: [
       {
         text: 'Examples',
