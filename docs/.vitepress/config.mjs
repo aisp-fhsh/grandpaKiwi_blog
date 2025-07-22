@@ -12,7 +12,7 @@ export default defineConfig({
       {
         text: '我的文章',
         items: [
-          { text: 'My First Article', link: '/my_first_md.md' },
+          { text: 'My First Article', link: '/raed/my_first_md.md' },
         ]
       }
     ],
