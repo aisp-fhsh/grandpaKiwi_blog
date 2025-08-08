@@ -1,6 +1,6 @@
 ---
-title: 我的第一篇部落格文章
-date: 2025-07-16
+title: 我的CDXCTF Writeup 
+date: 2025-08-08
 ---
 
 # 2025年8月 CDXCTF Writeup
@@ -9,4 +9,4 @@ date: 2025-07-16
 
 ## 🔍 題目清單
 
-- [Day 1 - Crypto小謎團](./day1_crypto.md)
+
