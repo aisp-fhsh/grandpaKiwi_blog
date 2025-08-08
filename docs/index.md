@@ -17,10 +17,11 @@ hero:
 features:
   - title: Writeup存取地
     text: 2025年8月CDXCTF Write
-    link: grandpaKiwi_blog\docs\CDXCTF\CDXCTF_list.md
+    link: /CDXCTF/CDXCTF_list.md
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dtj/6vu,3olor sit amet, consectetur adipiscing elit
 ---
+
 
