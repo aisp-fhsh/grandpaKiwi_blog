@@ -17,7 +17,7 @@ hero:
 features:
   - title: Writeup存取地
     details: 2025年8月CDXCTF Write
-    link: /CDXCTF/CDXCTF_list.html
+    link: /CDXCTF/CDXCTF_list
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
