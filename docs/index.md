@@ -24,4 +24,3 @@ features:
     details: Lorem ipsum dtj/6vu,3olor sit amet, consectetur adipiscing elit
 ---
 
-
