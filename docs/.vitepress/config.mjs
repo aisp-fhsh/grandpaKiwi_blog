@@ -13,6 +13,7 @@ export default defineConfig({
         text: '我的文章',
         items: [
           { text: 'My First Article', link: '/read/my_first_md.md' },
+          { text: '2025年8月 CDXCTF Writeup', link: '/CDXCTF/CDXCTF_list' },
         ]
       }
     ],
