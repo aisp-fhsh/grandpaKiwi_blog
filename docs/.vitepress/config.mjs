@@ -14,6 +14,7 @@ export default defineConfig({
         items: [
           { text: 'My First Article', link: '/read/my_first_md.md' },
           { text: '2025年8月 CDXCTF Writeup', link: '/CDXCTF/CDXCTF_list.md' },
+          { text: '報告清單', link: '/報告/報告_list.md' },
         ]
       }
     ],
