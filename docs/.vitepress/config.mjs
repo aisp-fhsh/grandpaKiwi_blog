@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "A Newbie-friendly Vitepress Template Project",
+  title: "A Kiwi write something there",
   description: "It's a vitepress template project for newbie 👶.",
   base: "/grandpaKiwi_blog/",
   themeConfig: {
@@ -22,7 +22,8 @@ export default defineConfig({
       {
         text: '側邊欄',
         items: [
-          { text: '第一篇測試', link: '/my_first_md' },
+          { text: 'My First Article', link: '/read/my_first_md.md' },
+          { text: '2025年8月 CDXCTF Writeup', link: '/CDXCTF/CDXCTF_list.md' },
         ]
       }
     ], 
