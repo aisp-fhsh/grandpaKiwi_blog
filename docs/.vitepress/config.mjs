@@ -4,30 +4,22 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "A Newbie-friendly Vitepress Template Project",
   description: "It's a vitepress template project for newbie 👶.",
-  base:"/grandpaKiwi_blog/",
+  base: "/grandpaKiwi_blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      {
-        text: '我的文章',
-        items: [
-          { text: 'My First Article', link: '/read/my_first_md.md' },
-          { text: '2025年8月 CDXCTF Writeup', link: '/CDXCTF/CDXCTF_list.md' },
-        ]
-      }
+      { text: '首頁', link: '/' },
+      { text: '第一篇測試', link: '/my_first_md' },
     ],
-
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '側邊欄',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '第一篇測試', link: '/my_first_md' },
         ]
       }
-    ],
+    ], 
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
