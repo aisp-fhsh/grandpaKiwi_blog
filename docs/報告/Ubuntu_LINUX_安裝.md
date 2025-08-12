@@ -69,17 +69,70 @@ lxc start ubuntu-lts
 
 lxc exec ubuntu-lts -- /bin/bash
 
-最後，進入了 ubuntu-lts 這個容器的內部，並啟動了 bash (一個標準的 Linux shell)。所有的後續操作，都是在這個 Ubuntu 容器裡進行的。
+最後，進入了 ubuntu-lts 這個容器的內部，並啟動了 bash (一個標準的 Linux shell)。所有的後續操作，都是在這個 Ubuntu 容器裡進行的真實環境架構
 
-真實環境架構
+在 Linux 上檢查和更新。
 
-環境是一個像多層結構，從外到內分別是：
+1. 檢查目前的 Python 版本
 
-Chrome OS (主機系統)
+### python
 
-Termina (虛擬機)
+在進行任何更新之前，請先確認您系統上已經安裝的 Python 版本。
 
-LXC (容器技術)
+開啟您的終端機，並執行指令：
 
-Ubuntu LTS (容器本身，操作空間)
-帳號 (一般使用者)
+python3 --version
+
+這個指令會顯示目前預設的 python3 版本。其他版本的 Python，可以用類似的方式將換成:
+
+python(版本) --version
+
+更新套件：
+
+sudo apt update
+
+安裝 Python 3.10：
+
+sudo apt install python3.10
+
+這個指令會顯示目前預設的 python3 版本。其他版本的 Python，可以用類似的方式將換成:
+
+sudo apt install python(版本) 
+
+### vim
+
+永久設定 (所有 Vim 工作階段)
+
+如果您希望每次打開 Vim 時都自動顯示行號，可以將設定寫入 Vim 的設定檔 .vimrc 中。
+
+開啟 .vimrc 檔案
+
+在您的終端機 (Terminal) 中輸入以下指令來編輯設定檔 (如果檔案不存在，Vim 會自動建立)：
+
+vim ~/.vimrc
+
+進去後寫下:
+
+set number
+
+Neovim GUI (現代化的替代方案)
+
+Neovim 是 Vim 的一個現代化分支 (fork)，它重構了許多底層程式碼，並將核心與使用者介面分離。這使得社群可以為 Neovim 開發各式各樣、功能強大的獨立 GUI 程式。
+
+如果您喜歡嘗試新東西，可以先安裝 Neovim 本身，再選擇一個您喜歡的 GUI。
+
+第一步：安裝 Neovim
+
+macOS (Homebrew): brew install neovim
+
+Windows (winget): winget install Neovim.Neovim
+
+Linux (Ubuntu/Debian): sudo apt install neovim
+
+第二步：選擇一個 GUI 客戶端
+
+Neovide: 專注於流暢的動畫和圖形效果，非常炫酷。
+
+Goneovim: 功能齊全，跨平台支援良好。
+
+Uivonim: 基於 VS Code 的底層技術 (Electron) 打造，整合性高。
