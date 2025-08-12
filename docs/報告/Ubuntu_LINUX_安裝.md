@@ -1,7 +1,6 @@
 
 --- 
 date: 2025-08-13
-
 title: Ubuntu LINUX 安裝
 ---
 
