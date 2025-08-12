@@ -1,10 +1,11 @@
 
----
-title: Ubuntu LINUX 安裝
+--- 
 date: 2025-08-13
+
+title: Ubuntu LINUX 安裝
 ---
 
-###下載好前的指令我做了：
+### 下載好前的指令我做了：
 
 啟用你電腦的 Linux 開發環境
 
@@ -52,7 +53,7 @@ date: 2025-08-13
 
 成功後，提示符號會變成 root@ubuntu-lts:~#。
 
-###下載好後的指令我做了：
+### 下載好後的指令我做了：
 
 Ctrl+Alt+T 打開 crosh
 
