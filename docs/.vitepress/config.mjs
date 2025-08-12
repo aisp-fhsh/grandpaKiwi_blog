@@ -8,13 +8,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首頁', link: '/' },
-      { text: '我的文章',
+      { text: 'Home', link: '/' },
+      {
+        text: '我的文章',
         items: [
           { text: 'My First Article', link: '/read/my_first_md.md' },
           { text: '2025年8月 CDXCTF Writeup', link: '/CDXCTF/CDXCTF_list.md' },
         ]
-      },
+      }
     ],
 
     sidebar: [
